@@ -1,0 +1,115 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.miTienda{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.tarjeta{
+    margin: 15px 10px;
+    width: 288px;
+}
+
+.desPrec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desPrecHijos{
+    margin: 5px;
+}
+
+.img{
+width: 100%;
+}
+
+body{
+    margin: 0px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: fantasy;
+}
+
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.margin5px{
+    margin: 5px
+}
+
+.emailnew{
+    margin:25px
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.serv{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+.talignleft{
+    text-align: left;
+}
+
+.paddlft0{
+    padding-left: 0px;
+}
+
+.menu{
+    position:fixed;
+    top: 44px;
+    left: -15px;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.red{
+    color: red;
+}
+
+header{
+    position:fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.search{
+    border: 0px;
+    border-bottom: solid black;
+    margin-right: 50px;
+    text-align: center;
+    outline: none;
+}
+
+.search:focus{
+    border-bottom: solid blue;
+}
+
